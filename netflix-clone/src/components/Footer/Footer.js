@@ -7,13 +7,13 @@ import "./footer.css"
 const Footer = () => {
   return (
     <div className='footer_outer_container'>
-        <div className='footer_inner_container' style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto' }}>
+        <div className='footer_inner_container'>
             <div className='footer_icons'>
                 <FacebookOutlinedIcon/>
                 <InstagramIcon/>
                 <YouTubeIcon/>
             </div>
-            <div className='footer_data' style={{ color: 'grey' }}>
+            <div className='footer_data'>
                 <div>
                     <ul>
                         <li>Audio Description</li>
@@ -55,5 +55,4 @@ const Footer = () => {
     </div>
   )
 }
-
 export default Footer

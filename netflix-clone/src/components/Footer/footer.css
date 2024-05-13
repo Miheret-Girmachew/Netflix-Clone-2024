@@ -1,11 +1,10 @@
-.footer_outer_conatiner{
+.footer_outer_container{
     background-color: #111;
     color: grey;
     display: flex;
     justify-content: center;
-    /* width: 60% ; */
 }
-.footer_inner_conatiner{
+.footer_inner_container{
     width: 60% ;
 }
 .footer_icons{
@@ -16,7 +15,6 @@
     color: #fff;
 }
 .footer_data{
-    /* color: grey; */
     display: flex;
     justify-content: space-between;
 }
@@ -33,7 +31,6 @@
 }
 
 .service_code{
-    color: grey;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +40,6 @@
     cursor: pointer;
 }
 .copy-write{
-    /* color: grey; */
     font-size: 12px;
     margin-bottom: 10px;
 }
