@@ -1,0 +1,141 @@
+/* Global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .app {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically center */
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 200px;
+    margin-left: 80px;
+  }
+  
+  .sign-in-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 160px;
+    /* Adjust or remove margin if needed */
+  
+  }
+  
+  .main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    line-height: 1.5; 
+  }
+ 
+
+  
+  
+  .content {
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 900;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Full-page background */
+  .background-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/images/netflix-background.png') no-repeat center center/cover;
+    z-index: 0;
+  }
+  
+  /* Adding a black overlay that covers the entire page */
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker overlay */
+    z-index: 1;
+  }
+
+  .email-form {
+    display: flex; /* Make it a flex container */
+    flex-direction: column; /* Stack children vertically */
+    gap: 15px; /* Apply spacing between child elements */
+    align-items: center; /* Center children horizontally */
+  }
+
+
+  .email-form input {
+    padding: 20px 10px;
+    width: 350px;
+    border: 1px solid white; 
+    background-color: transparent; 
+    border-radius: 5px;
+    color: white; 
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+
+  .get-started-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    width: 200px;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 25px;
+  }
+  /* login.css */
+
+.error-message {
+  color: red; /* Error text color */
+  font-size: 14px; /* Size of the error text */
+  margin-top: 5px; /* Space above the error message */
+  margin-bottom: 15px; /* Space below the error message */
+}

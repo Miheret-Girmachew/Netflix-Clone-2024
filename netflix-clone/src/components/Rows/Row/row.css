@@ -10,6 +10,7 @@
 	overflow-y: hidden;
 	overflow-x: scroll;
 	padding: 20px;
+	background: transparent;
 }
 .row__posters::-webkit-scrollbar {
 	display: none;
@@ -27,3 +28,8 @@
     margin-left: 20px;
 	color: white;
 }
+
+
+
+
+
