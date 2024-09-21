@@ -22,7 +22,7 @@ A **Netflix Clone** web application that replicates the basic features of the po
 ### Backend:
 - **Node.js**: JavaScript runtime for building the server-side
 - **Express.js**: Web framework for Node.js
-- **=Firebase**
+- **Firebase**
 - **JWT (JSON Web Tokens)**: For secure authentication
 
 ## Setup and Installation
